@@ -10,7 +10,7 @@ import Foundation
 public struct InfoListModel: Codable {
     public let env: EnvironmentInfo
     init() {
-        env = EnvironmentInfo
+        env = EnvironmentInfo()
     }
 }
 
