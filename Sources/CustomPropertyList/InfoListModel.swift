@@ -14,5 +14,5 @@ public struct InfoListModel: Codable {
 public struct EnvironmentInfo: Codable {
     public let baseUrl: String
     public let apikey: String
-    public let apikey: String
+    public let build: String
 }
