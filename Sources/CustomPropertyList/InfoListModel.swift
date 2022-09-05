@@ -7,13 +7,11 @@
 
 import Foundation
 
-// MARK: - Welcome
 struct InfoListModel: Codable {
-        let env: EnvironmentInfo
+    let env: EnvironmentInfo
 }
 
-// MARK: - NewDict
 struct EnvironmentInfo: Codable {
-        let baseUrl: String
-        let apikey: String
+    let baseUrl: String
+    let apikey: String
 }
