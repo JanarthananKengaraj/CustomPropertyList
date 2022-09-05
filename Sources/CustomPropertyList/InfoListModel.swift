@@ -21,5 +21,5 @@ public struct EnvironmentInfo: Codable {
     public init() {
         baseUrl = ""
         apikey = ""
-=    }
+    }
 }
