@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct InfoListModel: Codable {
+public struct InfoListModel: Codable {
     let env: EnvironmentInfo
 }
 
-struct EnvironmentInfo: Codable {
+public struct EnvironmentInfo: Codable {
     let baseUrl: String
     let apikey: String
 }
