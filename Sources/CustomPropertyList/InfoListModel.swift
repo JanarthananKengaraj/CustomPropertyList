@@ -8,10 +8,10 @@
 import Foundation
 
 public struct InfoListModel: Codable {
-    let env: EnvironmentInfo
+    public let env: EnvironmentInfo
 }
 
 public struct EnvironmentInfo: Codable {
-    let baseUrl: String
-    let apikey: String
+    public let baseUrl: String
+    public let apikey: String
 }
