@@ -8,18 +8,18 @@
 import Foundation
 
 public struct InfoListModel: Codable {
-    public var env: EnvironmentInfo
-    init() {
+    public let env: EnvironmentInfo
+    public init() {
         env = EnvironmentInfo()
     }
 }
 
 public struct EnvironmentInfo: Codable {
-    public var baseUrl: String
-    public var apikey: String
-    public var build: String
+    public let baseUrl: String
+    public let apikey: String
+    public let build: String
     
-    init() {
+    public init() {
         baseUrl = ""
         apikey = ""
         build = ""
